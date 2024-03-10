@@ -98,4 +98,4 @@
 
 ## Copyright
 
-N. James George © 2023. All Rights Reserved.
+Nicholas J. George © 2023. All Rights Reserved.
