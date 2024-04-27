@@ -1,8 +1,8 @@
-# **The VBA of Wall Street**
+# **The-VBA-of-Wall-Street**
 
 ----
 
-## **Table of Contents (MultipleYearStockDataComplete2018.xlsm)**
+## **Table of Contents (stock_data_2018.xlsm)**
 
 ----
 
@@ -12,7 +12,7 @@
 
 ----
 
-## **Table of Contents (MultipleYearStockDataComplete2019.xlsm)**
+## **Table of Contents (stock_data_2019.xlsm)**
 
 ----
 
@@ -22,7 +22,7 @@
 
 ----
 
-## **Table of Contents (MultipleYearStockDataComplete2020.xlsm)**
+## **Table of Contents (stock_data_2020.xlsm)**
 
 ----
 
@@ -32,67 +32,67 @@
 
 ----
 
-## **Table of Contents (StockAnalysisMacro.bas)**
+## **Table of Contents (stock_analysis_macro.bas)**
 
 ----
 
-**FormatStockDataPrivateSubRoutine**
+**format_stock_data**
 
-**FormatSummaryDataPrivateSubRoutine**
+**format_summary_data**
 
-**FormatTitlesPrivateSubRoutine**
+**format_titles**
 
-**FormatWorkSheetPrivateSubRoutine**
+**format_worksheet**
 
-**CreateSummaryTablePrivateSubRoutine**
+**create_summary_table**
 
-**CreateChangeTablePrivateSubRoutine**
+**create_change_table**
 
-**ConvertDataAndSummaryRangesToTablesPrivateSubRoutine**
+**convert_data_and_summary_ranges_to_tables**
+   
+**create_format_analysis_worksheet**
 
-**CreateFormatAnalysisWorkSheetPrivateSubRoutine**
+**change_string_to_date_in_date_column**
 
-**ChangeStringToDateInDateColumnPrivateSubRoutine**
+**set_up_titles_for_summary_data**
 
-**SetUpTitlesForSummaryDataPrivateSubRoutine**
+**create_summary_data_row**
 
-**CreateSummaryDataRowPrivateSubRoutine**
+**format_change_data_titles**
 
-**FormatChangeDataTitlesPrivateSubRoutine**
+**set_up_change_data_titles**
 
-**SetupChangeDataTitlesPrivateSubRoutine**
+**calculate_and_write_change_data**
 
-**CalculateAndWriteChangeDataPrivateSubRoutine**
+**convert_range_into_table**
 
-**ConvertRangeIntoTablePrivateSubRoutine**
+**format_yearly_change_cell**
 
-**FormatYearlyChangeCellPrivateSubRoutine**
+**create_worksheet**
 
-**CreateWorkSheetPrivateSubRoutine**
+**format_analysis_worksheet**
 
-**FormatAnalysisWorkSheetPrivateSubRoutine**
+**format_local_summary_data**
 
-**FormatLocalSummaryDataPrivateSubRoutine**
+**insert_analysis_worksheet_row_and_titles**
 
-**InsertAnalysisWorkSheetRowAndTitlesPrivateSubRoutine**
+**set_up_sorted_tables**
 
-**SetUpSortedTablesPrivateSubRoutine**
+**set_up_greatest_increase_table**
 
-**SetUpGreatestIncreaseTablePrivateSubRoutine**
+**set_up_greatest_decrease_table**
 
-**SetUpGreatestDecreaseTablePrivateSubRoutine**
+**set_up_greatest_total_volume_table**
 
-**SetUpGreatestTotalVolumeTablePrivateSubRoutine**
+**copy_table**
 
-**CopyTablePrivateSubRoutine**
+**sort_table**
 
-**SortTablePrivateSubRoutine**
+**calculate_yearly_change_function**
 
-**CalculateYearlyChangePrivateFunction**
+**calculate_percent_change_function**
 
-**CalculatePercentChangePrivateFunction**
-
-**ReturnAnalysisWorkSheetNamePrivateFunction**
+**return_analysis_worksheet_name_function**
 
 ----
 
