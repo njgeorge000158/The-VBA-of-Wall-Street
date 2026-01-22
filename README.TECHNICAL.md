@@ -64,7 +64,7 @@ MS Excel, VBA
 
 |&rarr; [./stock_analysis_macro.bas](./stock_analysis_macro.bas)
 
-|&rarr; [./table_of_contentsS.md](./table_of_contents.md)
+|&rarr; [./table_of_contents.md](./table_of_contents.md)
 
 |&rarr; [./images/](./images/)
 
