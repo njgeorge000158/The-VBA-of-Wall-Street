@@ -14,7 +14,7 @@ The only dependency this analysis requires is an installation of MS Excel.
 
 ----
 
-The VBA module for this stock analysis is in the file, stock_analysis_macro.bas, which has been loaded and run in the following macro-enabled Excel Workbooks: stock_data_2018.xlsm, stock_data_2019.xlsm, and stock_data_2020.xlsm.  The Excel Workbook used for testing, alphabetical_testing_complete.xlsm, also contains this VBA module.  The Images folder includes images of summary and analysis results; and the Resources folder contains the unprocessed starter Excel Workbooks, alphabetical_testing_unprocessed.xlsx and multiple_year_stock_unprocessed.xlsx.
+The VBA module for this stock analysis is in the file, stock_analysis_macro.bas, which has been loaded and run in the following macro-enabled Excel Workbooks: stock_data_2018.xlsm, stock_data_2019.xlsm, and stock_data_2020.xlsm.  The Excel Workbook used for testing, alphabetical_testing_complete.xlsm, also contains this VBA module.  The folder, images, includes images of summary and analysis results; and the folder, resources, contains the unprocessed starter Excel Workbooks, alphabetical_testing_unprocessed.xlsx and multiple_year_stock_unprocessed.xlsx.
 
 ----
 
