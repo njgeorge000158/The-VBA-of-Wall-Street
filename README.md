@@ -4,6 +4,8 @@
 
 # **VBA-Driven Stock Trading Analysis: 2018–2020**
 
+----
+
 **Project Overview**
 
 For this project, I developed a VBA script to format, summarize, and analyze approximately 2.26 million stock trading records spanning 3,000 tickers across three years: 2018, 2019, and 2020. The goal was to transform raw, high-volume trading data into a structured and queryable summary, extracting meaningful performance metrics at both the individual stock and cross-market level.
