@@ -8,11 +8,11 @@
 
 ## **Project Overview**
 
-This project involved developing a VBA script to format, summarize, and analyze approximately 2.26 million stock trading records spanning 3,000 tickers across three calendar years — 2018, 2019, and 2020. The primary objective was to transform raw, high-volume trading data into a structured, queryable summary that surfaces meaningful performance metrics at both the individual ticker and cross-market levels.
+This project encompassed developing a VBA script to format, summarize, and analyze approximately 2.26 million stock trading records spanning 3,000 tickers across three calendar years — 2018, 2019, and 2020. The primary objective was to transform raw, high-volume trading data into a structured, searchable summary that reveals meaningful performance metrics at both the individual ticker and cross-market levels.
 
-The script processes each year's dataset by iterating over every trading record and aggregating key statistics per ticker: yearly opening and closing prices, total trading volume, and net price change. From these aggregates, it derives percentage return and identifies the tickers with the greatest total volume, highest percentage gain, and steepest percentage loss for each year. This cross-market summary provides an at-a-glance view of standout performers and laggards without requiring manual filtering or pivot analysis.
+The script processes a year's dataset by iterating over every trading record and aggregating key statistics about each ticker: opening price, closing price, total trading volume, and net price change. From these aggregates, it calculates the percent change and identifies the tickers with the greatest total volume, highest percent gain, and steepest percent loss. This cross-market summary provides an at-a-glance view of standout performers and laggards without requiring manual filtering or pivot analysis.
 
-Beyond its analytical outputs, the script also handles presentation by applying conditional formatting to highlight positive returns in green and negative returns in red, making performance patterns immediately legible across a dense summary table.
+Beyond its analytical outputs, the script also applyies conditional formatting to highlight positive returns in green and negative returns in red, making performance patterns immediately legible across a dense summary table.
 
 The result is a pipeline that collapses millions of raw rows into a compact, formatted, and analytically rich summary that reduces what would otherwise require hours of manual Excel work into a single automated process.
 
