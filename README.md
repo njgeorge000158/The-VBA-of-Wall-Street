@@ -20,7 +20,7 @@ The result is a pipeline that collapses millions of raw rows into a compact, for
 
 Before processing the full dataset, I established a controlled testing environment using a small, alphabetically organized subset of the trading records. Working against a reduced sample eliminated the computational overhead of 2.26 million rows during early development, enabling rapid iteration and debugging without waiting on full-scale execution cycles.
 
-This staged approach proved essential for catching logic errors in the aggregation routines, particularly edge cases involving ticker boundaries, where a naïve row-comparison strategy could misattribute the final record of one ticker to the opening of the next. Validating against an alphabetically structured subset made these boundary conditions predictable and easy to inspect, since the expected groupings were immediately obvious from the data itself.
+This staged approach was essential for catching logic errors in the aggregation routines, particularly edge cases involving ticker boundaries, where a naïve row-comparison strategy could place the final record of one ticker to the opening of the next. Validating against an alphabetically structured subset made these boundary conditions predictable and easy to inspect, since the expected groupings were immediately obvious from the data itself.
 
 Once the script produced correct, stable results on the test data, I deployed it across three separate Excel workbooks, one per calendar year, each containing the complete trading history for that period. Running the script on the full dataset confirmed that performance held at scale and that the aggregation logic generalized cleanly beyond the controlled test conditions.
 
