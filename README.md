@@ -8,7 +8,7 @@
 
 ## **Project Overview**
 
-This project encompassed developing a VBA script to format, summarize, and analyze approximately 2.26 million stock trading records spanning 3,000 tickers across three calendar years — 2018, 2019, and 2020. The primary objective was to transform raw, high-volume trading data into a structured, searchable summary that reveals meaningful performance metrics at both the individual ticker and cross-market levels.
+This project involved developing a VBA script to format, summarize, and analyze approximately 2.26 million stock trading records spanning 3,000 tickers across three calendar years — 2018, 2019, and 2020. The primary objective was to transform raw, high-volume trading data into a structured, searchable summary that reveals meaningful performance metrics at both the individual ticker and cross-market levels.
 
 The script processes a year's dataset by iterating over every trading record and aggregating key statistics about each ticker: opening price, closing price, total trading volume, and net price change. From these aggregates, it calculates the percent change and identifies the tickers with the greatest total volume, highest percent gain, and steepest percent loss. This cross-market summary provides an at-a-glance view of standout performers and laggards without requiring manual filtering or pivot analysis.
 
